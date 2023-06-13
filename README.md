@@ -25,10 +25,20 @@
 
 ## Installation
 
-- Copy the following line and past on gitbash 
+1. Copy the following line and past on gitbash 
 
     ```github 
     git clone https://github.com/gama1221/loan.git
+    ```
+2. go to NPV_TOOL_FRONTEND directory and open using text editor such as vscode also run the following on console
+    ```npm
+    npm install
+    ```
+3. go to NPV_TOOL_BACKEND directory open it using IntelliJ IDE and install maven
+4. Insert sample data on MYSql database test the result by typing the following address
+    ```
+    http://localhost:8182/loan/1
+    
     ```
 ## Config
 - **Backend**
