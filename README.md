@@ -10,7 +10,7 @@
 
  - [**Getinet Amare** on LinkedIn ](https://www.linkedin.com/in/getinet-mekonnen)
     ```github
-        https://www.linkedin.com/in/getinet-mekonnen
+    https://www.linkedin.com/in/getinet-mekonnen
     ```
  - [**Asefa Mulu** on LinkedIn ](https://www.linkedin.com/in/getinet-mekonnen)
 
