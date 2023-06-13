@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "loan.app.jwtCookieName",
+      "type": "java.lang.String",
+      "description": "Description for loan.app.jwtCookieName."
+  }
+] }

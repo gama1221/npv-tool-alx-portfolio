@@ -1,0 +1,200 @@
+#btnCompute:hover {
+    background-color: #9c27b0;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.flex-container {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+
+.flex-item-left {
+    background-color: #fdfbfb;
+    flex: 50%;
+    border: 1px groove;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+}
+
+.flex-item-right {
+    flex: 50%;
+    border: 1px groove;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.normal-npv-amortization {
+    background-color: #fdfbfb;
+    flex: 50%;
+    border: 1px groove;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+}
+.normal-npv-amortization header{
+    background-color: #fdfbfb;
+    /* flex: 50%; */
+    border: 1px groove;
+    padding: 1px;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+    margin-top: px;    
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.normal-npv-amortization .normal-interest-summary{
+    display: inline-block;
+    width: 33%;
+    border: 1px groove;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+}
+.normal-interest-summary:hover,.normal-principal-summary:hover,.normal-cash-flow-summary:hover{ 
+    width: 33%;
+    font-size: larger;
+}
+.normal-npv-amortization .normal-interest-summary h4, .normal-principal-summary h4, .normal-cash-flow-summary h4{
+    color: #9c27b0;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.normal-npv-amortization .normal-principal-summary{
+    display: inline-block;
+    margin: 10px;
+    width: 32%;
+    border: 1px groove;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+}
+.normal-npv-amortization .normal-cash-flow-summary{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 25px;
+    width: 31%;
+    border: 1px groove;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+}
+.normal-npv-amortization h4{
+    color: #9c27b0;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+/* sx={{ display: 'flex', gap: '1rem', p: '0.5rem', flexWrap: 'wrap' }} */
+
+.normal-npv-amortization-summary {
+    flex: 30%;
+    border: 1px groove;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.normal-npv-amortization-summary h4.title {
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.npv-graph{
+    background-color: #fdfbfb;
+    flex: 100%;
+    border: 1px groove;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(190, 189, 190);
+}
+.npv-graph h5{
+    color: #9c27b0;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+/* .buttons{
+    display: inline-flex;
+    align-items: flex-end;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: flex-end;
+} */
+
+.buttons { 
+    /* display: inline-flex;  */
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: -25px;
+    margin-left: 20px;
+    z-index: 1;
+  }
+.npv-order{
+    display: inline-flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.npv-type{
+    color: #9c27b0;
+}
+.npv-comparision-all{
+    /* background-color: rgb(121, 120, 122); */
+}
+.npv-comparision{
+    margin-left: 25%;
+    font-weight: bold;
+    color: #9c27b0;
+}
+.npv-primary-color{    
+    background-color:#7a53c2;
+    color:#fff;
+}
+.npv-login{
+    background-color: #fff;
+    color: #9c27b0;
+    font-weight: bold;
+    /* border: 10px solid #000; */
+    border: 1px solid #9c27b0;
+    outline: none;
+}
+.npv-login:hover, .npv-login:focus{
+    background-color: #9c27b0;
+    color: #fff;
+    font-weight: bold;
+    /* border: 10px solid #000; */
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.npv-login:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: black;
+}
+input[type='text']:focus, input[type='password']:focus
+ {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #9c27b0;
+ }
+ .loans_per_customer{
+    margin-top: 8px;
+ }
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-item-right,
+    .flex-item-left,
+    .normal-npv-amortization-summary,
+    .npv-graph,
+    .normal-npv-amortization {
+        flex: 100%;
+    }
+}

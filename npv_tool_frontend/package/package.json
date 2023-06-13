@@ -1,0 +1,27 @@
+{
+  "name": "cbe-npv-injection",
+  "version": "1.0.0",
+  "description": "It computes NPV in the case of injectionscenario",
+  "main": "cbe-npv-injection.js",
+  "scripts": {
+    "test": "npv, normal, amortization, cbe, table"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gama1221/cbe-npv-injection.git"
+  },
+  "keywords": [
+    "npv",
+    "normal",
+    "amortization",
+    "table",
+    "cbe"
+  ],
+  "author": "Getinet Amare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gama1221/cbe-npv-injection/issues"
+  },
+  "homepage": "https://github.com/gama1221/cbe-npv-injection#readme",
+  "devDependencies": {}
+}
