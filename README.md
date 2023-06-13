@@ -1,8 +1,15 @@
 # NPV TOOL
 
+**Net present value (*NPV*)** is the present value of the cash flows at the required rate of return of company credits compared to the initial investment. In practical terms, it’s a method of calculating company return. on investment for their borrowers. By looking at all of the money you expect to make from the investment and translating those returns into today’s and future money, you can decide whether the project is worthwhile.
+## Screenshoots
+- Graphicall Representation of NPV results with diferent scenarios such as normal, extension, waiver, ...
 ![Unable to display image](./npv_tool_frontend/public/screenshoot/graphicall.PNG)
 
-**Net present value (*NPV*)** is the present value of the cash flows at the required rate of return of company credits compared to the initial investment. In practical terms, it’s a method of calculating company return. on investment for their borrowers. By looking at all of the money you expect to make from the investment and translating those returns into today’s and future money, you can decide whether the project is worthwhile.
+- Normal NPV parameters with its computation result,
+![Unable to display image](./npv_tool_frontend/public/screenshoot/NORMAL.PNG)
+
+- Amortization table for Normal NPV
+![Unable to display image](./npv_tool_frontend/public/screenshoot/Summary.PNG)
 
 ## Where can we get more information about the TOOL
 
