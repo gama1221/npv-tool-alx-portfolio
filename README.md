@@ -23,6 +23,14 @@
     ```
  - [**Asefa Mulu** on LinkedIn ](https://www.linkedin.com/in/getinet-mekonnen)
 
+ ## File Structure
+ ### Backend
+
+ ![Unable to display image](./npv_tool_frontend/public/screenshoot/backFileStructure.PNG)
+ ### Frontend
+
+ ![Unable to display image](./npv_tool_frontend/public/screenshoot/frontFileStructure.PNG)
+
 ## Installation
 
 1. Copy the following line and past on gitbash 
@@ -38,7 +46,7 @@
 4. Insert sample data on MYSql database test the result by typing the following address
     ```
     http://localhost:8182/loan/1
-    
+
     ```
 ## Config
 - **Backend**
