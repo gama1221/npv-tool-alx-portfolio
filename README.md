@@ -36,7 +36,7 @@
 1. Copy the following line and past on gitbash 
 
     ```github 
-    git clone https://github.com/gama1221/loan.git
+    git clone https://github.com/gama1221/npv-tool-alx-portfolio.git
     ```
 2. go to NPV_TOOL_FRONTEND directory and open using text editor such as vscode also run the following on console
     ```npm
